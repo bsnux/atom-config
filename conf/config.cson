@@ -1,0 +1,44 @@
+"*":
+  "exception-reporting":
+    userId: "a265a877-035e-8797-4227-079544e72ea4"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "c605f0b0875baeaefabe4c3bfca2a0dd7228ddec"
+  editor:
+    fontSize: 13
+    invisibles: {}
+    fontFamily: "DejaVu Sans Mono for Powerline"
+  showIndentGuide: false
+  fontFamily: "Menlo"
+  core:
+    audioBeep: false
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+    disabledPackages: [
+      "vim-mode"
+    ]
+  "vim-mode": {}
+  linter: {}
+  "easy-motion": {}
+  "linter-pep8":
+    ignoreErrorCodes: [
+      "E501"
+      "E265"
+      "E702"
+    ]
+core:
+  themes: [
+    "atom-dark-ui"
+    "monokai"
+  ]
+  ignoredNames: [
+    ".git"
+    ".svn"
+    ".DS_Store"
+    ".pyc"
+  ]
+linter:
+  showHighlighting: false
