@@ -23,6 +23,7 @@
 # This file uses CoffeeScript Object Notation (CSON).
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
-'.editor':
+'atom-text-editor':
   'cmd-right': 'pane:show-next-item'
   'cmd-left': 'pane:show-previous-item'
+  'ctrl-u': 'editor:delete-line'
