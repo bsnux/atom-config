@@ -19,6 +19,7 @@
     ]
     disabledPackages: [
       "vim-mode"
+      "git-blame"
     ]
   "vim-mode": {}
   linter: {}
@@ -28,7 +29,9 @@
       "E501"
       "E265"
       "E702"
+      "W291"
     ]
+  "git-blame": {}
 core:
   themes: [
     "atom-dark-ui"
