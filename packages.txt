@@ -14,5 +14,5 @@ linter-pyflakes@0.0.4
 monokai@0.12.0
 tabs-to-spaces@0.8.1
 trailing-spaces@0.2.4
-vim-mode@0.31.0
+vim-mode@0.33.0
 
