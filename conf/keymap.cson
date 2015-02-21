@@ -27,3 +27,5 @@
   'cmd-right': 'pane:show-next-item'
   'cmd-left': 'pane:show-previous-item'
   'ctrl-u': 'editor:delete-line'
+  'ctrl-c': 'cut-line:copy-line'
+  'ctrl-v': 'cut-line:paste-line'
