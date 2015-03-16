@@ -29,3 +29,8 @@
   'ctrl-u': 'editor:delete-line'
   'ctrl-c': 'cut-line:copy-line'
   'ctrl-v': 'cut-line:paste-line'
+  'ctrl-c': 'core:copy'
+  'ctrl-c': 'cut-line:copy-line'
+  'ctrl-v': 'core:paste'
+  'ctrl-v': 'cut-line:paste-line'
+  'ctrl-s': 'core:save'
