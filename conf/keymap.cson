@@ -1,7 +1,7 @@
 # Your keymap
 #
-# Atom keymaps work similarly to stylesheets. Just as stylesheets use selectors
-# to apply styles to elements, Atom keymaps use selectors to associate
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
 # keystrokes with events in specific contexts.
 #
 # You can create a new keybinding in this file by typing "key" and then hitting
@@ -12,20 +12,30 @@
 # 'atom-text-editor':
 #   'enter': 'editor:newline'
 #
-# '.workspace':
+# 'atom-workspace':
 #   'ctrl-shift-p': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
 # You can find more information about keymaps in these guides:
-# * https://atom.io/docs/latest/customizing-atom#customizing-key-bindings
-# * https://atom.io/docs/latest/advanced/keymaps
+# * https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings
+# * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 #
 # This file uses CoffeeScript Object Notation (CSON).
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
+'body':
+  'ctrl-s': 'core:save'
+  'ctrl-c': 'core:copy'
+  'ctrl-x': 'core:cut'
+  'ctrl-v': 'core:paste'
 'atom-text-editor':
+  'ctrl-l': 'editor:select-line'
   'cmd-right': 'pane:show-next-item'
   'cmd-left': 'pane:show-previous-item'
-  'ctrl-u': 'editor:delete-line'
-  'ctrl-c': 'cut-line:copy-line'
-  'ctrl-v': 'cut-line:paste-line'
+  'ctrl-w w': 'window:focus-next-pane'
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  # tmux moves
+  'ctrl-b l': 'window:focus-pane-on-right'
+  'ctrl-b h': 'window:focus-pane-on-left'
+  'ctrl-b j': 'window:focus-pane-below'
+  'ctrl-b k': 'window:focus-pane-above'
