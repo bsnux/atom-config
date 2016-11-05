@@ -1,39 +1,35 @@
 "*":
-  "exception-reporting":
-    userId: "60c59142-90fb-15d0-6743-b6cae3340aa1"
-  welcome:
-    showOnStartup: false
   core:
     audioBeep: false
-    projectHome: "/Users/arturo.fernandez/dev/"
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".pyc"
+    ]
+    projectHome: "/Users/arturo.fernandez/dev"
+    telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
-      "monokai"
-    ]
-    disabledPackages: [
-      "vim-mode"
-      "git-blame"
-      "fonts"
+      "atom-material-syntax"
     ]
   editor:
-    invisibles: {}
+    fontFamily: "Menlo"
     fontSize: 12
+    lineHeight: 1.2
+  "exception-reporting":
+    userId: "cdb74945-46f4-1e09-0060-e0bd58b7b633"
   linter:
-    ignoredLinterErrors: [
-      "flake8"
-    ]
+    displayLinterInfo: false
+    displayLinterStatus: false
     lintOnFly: false
     showErrorPanel: false
   "linter-flake8":
-    binaryName: "/usr/local/bin/flake8"
     ignoreErrorCodes: [
       "E501"
-      "E265"
     ]
-  jumpy: {}
-  "vim-mode":
-    useClipboardAsDefaultRegister: true
-    useSmartcaseForSearch: true
-  "git-blame": {}
-  fonts:
-    fontFamily: "Inconsolata-g"
+  welcome:
+    showOnStartup: false
